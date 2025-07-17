@@ -1,6 +1,6 @@
 **Vypracovanie domácej úlohy č. 1
 
-# 🚀 Ukážka použitia
+# 🚀 Ukážka použitia pre Cisco Catalyst Center API volanie
 
 **Spustenie skriptu:**
 
@@ -17,6 +17,8 @@ Tu je zoznam zariadení z Catalyst Center:
 2. **Hostname:** sw2, **IP adresa:** 10.10.20.176
 3. **Hostname:** sw3, **IP adresa:** 10.10.20.177
 4. **Hostname:** sw4, **IP adresa:** 10.10.20.178
+
+:arrow_right: Príklad zobrazuje, ako API zavolá vlastnú funkciu (get_dnac_devices), získa dáta zo zariadení a výsledok prepíše do používateľsky čitateľného zoznamu.
 
 ℹ️ Poznámka:
 Ak sa zobrazí varovanie InsecureRequestWarning kvôli neoverenému HTTPS pripojeniu, odporúčame pre produkciu použiť platný certifikát.
