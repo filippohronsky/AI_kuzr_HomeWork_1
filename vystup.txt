@@ -1,0 +1,21 @@
+❯ python3 main_openai.py
+
+First response: ChatCompletionMessage(content=None, refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_X1ngMdt7Ouk4BzUt4vuFdDAD', function=Function(arguments='{}', name='get_dnac_devices'), type='function')])
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '10.10.20.85'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '10.10.20.85'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+[{'hostname': 'sw1', 'managementIpAddress': '10.10.20.175'}, {'hostname': 'sw2', 'managementIpAddress': '10.10.20.176'}, {'hostname': 'sw3', 'managementIpAddress': '10.10.20.177'}, {'hostname': 'sw4', 'managementIpAddress': '10.10.20.178'}]
+
+Second response: ChatCompletionMessage(content='Tu je zoznam zariadení z Catalyst Center:\n\n1. **Hostname:** sw1, **IP adresa:** 10.10.20.175\n2. **Hostname:** sw2, **IP adresa:** 10.10.20.176\n3. **Hostname:** sw3, **IP adresa:** 10.10.20.177\n4. **Hostname:** sw4, **IP adresa:** 10.10.20.178', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None)
+
+--- Full response: ---
+ChatCompletionMessage(content='Tu je zoznam zariadení z Catalyst Center:\n\n1. **Hostname:** sw1, **IP adresa:** 10.10.20.175\n2. **Hostname:** sw2, **IP adresa:** 10.10.20.176\n3. **Hostname:** sw3, **IP adresa:** 10.10.20.177\n4. **Hostname:** sw4, **IP adresa:** 10.10.20.178', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None)
+
+--- Response text: ---
+Tu je zoznam zariadení z Catalyst Center:
+
+1. **Hostname:** sw1, **IP adresa:** 10.10.20.175
+2. **Hostname:** sw2, **IP adresa:** 10.10.20.176
+3. **Hostname:** sw3, **IP adresa:** 10.10.20.177
+4. **Hostname:** sw4, **IP adresa:** 10.10.20.178
